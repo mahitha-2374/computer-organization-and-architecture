@@ -1,8 +1,8 @@
 org 100h
 
 ; Initialize values
-mov al,86h        ; Move 89h (134 in decimal) into AL
-mov bl,24h        ; Move 10h (36 in decimal) into BL
+mov al,86h        ; Move 86h (134 in decimal) into AL
+mov bl,24h        ; Move 24h (36 in decimal) into BL
 
 ; Perform division (AL / BL)
 idiv bl           ; AL = quotient, AH = remainder
